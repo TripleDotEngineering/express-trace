@@ -1,8 +1,9 @@
 {
   "name": "@tripledot/express-trace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express middleware for traceability",
   "main": "src/trace.ts",
+  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
