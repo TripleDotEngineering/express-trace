@@ -1,0 +1,33 @@
+{
+  "name": "@tripledot/express-trace",
+  "version": "0.1.0",
+  "description": "Express middleware for traceability",
+  "main": "src/trace.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TripleDotEngineering/express-trace.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "traceability",
+    "trace"
+  ],
+  "author": "Josh Kaplan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TripleDotEngineering/express-trace/issues"
+  },
+  "homepage": "https://github.com/TripleDotEngineering/express-trace#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
